@@ -1,0 +1,35 @@
+# OS-specific
+.DS_Store
+
+# Editor swapfiles
+.*.sw?
+*~
+
+# Vagrant stuff
+acceptance_config.yml
+boxes/*
+/.vagrant
+/website/.vagrant
+/website/build
+/vagrant-spec.config.rb
+test/vagrant-spec/.vagrant/
+.vagrant/
+/vagrant
+/pkg
+data.db
+vagrant-restore.db.lock
+cmd/vagrant/Vagrantfile
+binstubs/
+
+# Bundler/Rubygems
+*.gem
+.bundle
+pkg/*
+/Gemfile.lock
+test/tmp/
+/exec
+.ruby-bundle
+vendor/bundle
+
+# Project specific
+files/ssh/authorized_keys
